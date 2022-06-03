@@ -1,0 +1,726 @@
+**** Log file opened by process 6468 at 2017-07-06 11:41:42 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.36373
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 127.0.0.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-07-06 11:41:42.511 [Thread 1]
+Failure to create pool for destination R/3 (ORIGINAL) [NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Thu Jul 06 11:41:42 2017
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-07-06 11:41:42.546 [Thread 1]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Thu Jul 06 11:41:42 2017
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2017-07-06 11:42:17.230 [Thread 1]
+Failure to create pool for destination R/3 (ORIGINAL) [NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Thu Jul 06 11:42:17 2017
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     4
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-07-06 11:42:17.230 [Thread 1]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Thu Jul 06 11:42:17 2017
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     4
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 8256 at 2018-03-09 11:31:06 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.vshost.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 127.0.0.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-09 11:31:06.797 [Thread 8]
+Failure to create pool for destination R/3 (ORIGINAL) [NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Fri Mar 09 11:31:06 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-03-09 11:31:06.821 [Thread 8]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Fri Mar 09 11:31:06 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2018-03-09 11:31:26.430 [Thread 8]
+Failure to create pool for destination R/3 (ORIGINAL) [NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Fri Mar 09 11:31:26 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     4
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-03-09 11:31:26.473 [Thread 8]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Fri Mar 09 11:31:26 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     4
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 4248 at 2018-03-20 06:49:54 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.vshost.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 10.19.208.44, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-20 06:49:54.247 [Thread 10]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.18.222.111:3300' broken
+TIME        Tue Mar 20 06:49:51 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5087
+DETAIL      NiIRead: P=10.18.222.111:3300; L=10.19.208.44:62421
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     25
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Log file opened by process 5252 at 2018-03-21 12:12:59 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.vshost.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 10.19.210.224, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-21 12:12:59.221 [Thread 9]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.18.222.111:3300' broken
+TIME        Wed Mar 21 12:12:59 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5087
+DETAIL      NiIRead: P=10.18.222.111:3300; L=10.19.210.224:57507
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     5
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Error entry 2018-03-21 14:20:16.646 [Thread 9]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.18.222.111:3300' broken
+TIME        Wed Mar 21 14:20:16 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5087
+DETAIL      NiIRead: P=10.18.222.111:3300; L=10.19.210.224:63083
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     12
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Log file opened by process 4240 at 2018-03-21 15:12:04 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.vshost.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 127.0.0.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-21 15:12:04.057 [Thread 9]
+Failure to create pool for destination R/3 (ORIGINAL) [NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Wed Mar 21 15:12:04 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-03-21 15:12:04.085 [Thread 9]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Wed Mar 21 15:12:04 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 3012 at 2018-03-23 15:56:18 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.vshost.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 10.19.210.224, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-23 15:56:19.128 [Thread 10]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.18.222.111:3300' broken
+TIME        Fri Mar 23 15:56:16 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5087
+DETAIL      NiIRead: P=10.18.222.111:3300; L=10.19.210.224:18563
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     12
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Error entry 2018-03-23 15:57:30.401 [Thread 10]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Fri Mar 23 15:57:30 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     14
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetClient()
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcSessionState.GetConnection()
+   at SAP.Middleware.Connector.RfcSessionManager.GetConnection(RfcDestination dest)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Error entry 2018-03-24 07:13:27.513 [Thread 10]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.18.222.111:3300' broken
+TIME        Sat Mar 24 07:13:27 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5087
+DETAIL      NiIRead: P=10.18.222.111:3300; L=10.19.208.44:45878
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     30
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Error entry 2018-03-24 07:14:39.233 [Thread 10]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Sat Mar 24 07:14:39 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10053
+ERRNO TEXT  WSAECONNABORTED: Software caused connection abort
+COUNTER     32
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetClient()
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcSessionState.GetConnection()
+   at SAP.Middleware.Connector.RfcSessionManager.GetConnection(RfcDestination dest)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Log file opened by process 7812 at 2018-03-26 07:09:01 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.vshost.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 10.19.208.44, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-26 07:09:01.768 [Thread 9]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.18.222.111:3300' broken
+TIME        Mon Mar 26 07:09:01 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5087
+DETAIL      NiIRead: P=10.18.222.111:3300; L=10.19.208.44:5403
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     42
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Error entry 2018-03-26 07:10:12.487 [Thread 9]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Mon Mar 26 07:10:12 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     44
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetClient()
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcSessionState.GetConnection()
+   at SAP.Middleware.Connector.RfcSessionManager.GetConnection(RfcDestination dest)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Error entry 2018-03-26 07:11:23.465 [Thread 9]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Mon Mar 26 07:11:23 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     46
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetClient()
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcSessionState.GetConnection()
+   at SAP.Middleware.Connector.RfcSessionManager.GetConnection(RfcDestination dest)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Error entry 2018-03-26 07:12:34.439 [Thread 9]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Mon Mar 26 07:12:34 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     48
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetClient()
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcSessionState.GetConnection()
+   at SAP.Middleware.Connector.RfcSessionManager.GetConnection(RfcDestination dest)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Error entry 2018-03-26 07:32:43.976 [Thread 9]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.18.222.111:3300' broken
+TIME        Mon Mar 26 07:32:43 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        4604
+DETAIL      NiIWrite: P=10.18.222.111:3300; L=10.19.210.224:7251
+SYSTEM CALL WSASend
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     52
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Error entry 2018-03-26 07:58:50.032 [Thread 9]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.18.222.111:3300' broken
+TIME        Mon Mar 26 07:58:49 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        4604
+DETAIL      NiIWrite: P=10.18.222.111:3300; L=10.19.210.154:8676
+SYSTEM CALL WSASend
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     57
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Log file opened by process 5512 at 2018-03-29 08:58:54 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.vshost.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 10.19.208.44, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-29 08:58:55.653 [Thread 8]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.18.222.111:3300' broken
+TIME        Thu Mar 29 08:58:51 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5087
+DETAIL      NiIRead: P=10.18.222.111:3300; L=10.19.208.44:19722
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     47
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Error entry 2018-03-29 09:28:50.332 [Thread 8]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.18.222.111:3300' broken
+TIME        Thu Mar 29 09:28:50 2018
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5087
+DETAIL      NiIRead: P=10.18.222.111:3300; L=10.19.210.224:21604
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     51
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)

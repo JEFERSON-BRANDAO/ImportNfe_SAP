@@ -1,0 +1,13 @@
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.exe.config
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.exe
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.pdb
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\obj\x86\Debug\Interop.CalBase.dll
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\obj\x86\Debug\Interop.CalConnector.dll
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\obj\x86\Debug\Interop.CalCR3.dll
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\obj\x86\Debug\ImportNfe_SAP.csproj.ResolveComReference.cache
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\obj\x86\Debug\ImportNfe_SAP.DownLoadNfe.resources
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\obj\x86\Debug\ImportNfe_SAP.Properties.Resources.resources
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\obj\x86\Debug\ImportNfe_SAP.csproj.GenerateResource.Cache
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\obj\x86\Debug\ImportNfe_SAP.exe
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\obj\x86\Debug\ImportNfe_SAP.pdb
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\obj\x86\Debug\ImportNfe_SAP.csprojResolveAssemblyReference.cache

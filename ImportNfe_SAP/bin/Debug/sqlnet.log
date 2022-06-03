@@ -1,0 +1,80 @@
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.19.215.26)(PORT=1527))(CONNECT_DATA=(SERVICE_NAME=EGODB)(CID=(PROGRAM=C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.vshost.exe)(HOST=BR1CN00112)(USER=jefferson.brandao))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 14-MAR-2018 18:35:42
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.19.215.26)(PORT=1527))(CONNECT_DATA=(SERVICE_NAME=EGODB)(CID=(PROGRAM=C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.vshost.exe)(HOST=BR1CN00112)(USER=jefferson.brandao))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 21-MAR-2018 15:06:48
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.19.215.26)(PORT=1527))(CONNECT_DATA=(SERVICE_NAME=EGODB)(CID=(PROGRAM=C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.vshost.exe)(HOST=BR1CN00112)(USER=jefferson.brandao))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 21-MAR-2018 15:07:10
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.19.215.26)(PORT=1527))(CONNECT_DATA=(SERVICE_NAME=EGODB)(CID=(PROGRAM=C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\ImportNfe_SAP\ImportNfe_SAP\bin\Debug\ImportNfe_SAP.vshost.exe)(HOST=BR1CN00112)(USER=jefferson.brandao))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 21-MAR-2018 15:07:31
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
